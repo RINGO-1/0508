@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body{
+            width: 960px;
+            margin: 0 auto;
+            background-color: #E6E6E6;
+        }
+        #page-wrapper{
+            background-color: white;
+            margin: 40px 0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        #main-header{
+            padding: 40px 50px;
+        }
+        .master-title{
+            font-size: 30px;
+            color: #181818;
+        }
+        .master-description{
+            font-size: 15px;
+            font-weight: 500;
+            color: #383838;
+        }
+        #main-navigation{
+            border-top: 1px solid #c8c8c8;
+            border-bottom: 1px solid #c8c8c8;
+            margin-bottom: 20px;
+            height: 40px;
+        }
+        .outer-menu-item{
+            float: left;
+            position: relative;
+        }
+        .menu-title{
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;
+        }
+        .inner-menu{
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+            z-index: 1000;
+            text-align: center;
+        }
+        .inner-menu-item > a{
+            display: block;
+            padding: 5px 10px;
+            color: black;
+        }
+        .inner-menu-item > a:hover{
+            background-color: black;
+            color: white;
+        }
+        #content{
+            overflow: hidden;
+        }
+        #main-section{
+            float: left;
+            width: 710px;
+        }
+        #main-aside{
+            float: right;
+            width: 200px;
+        }
+        article{
+            padding: 0 10px 20px 10px;
+            border-bottom: 1px solid #c8c8c8;
+        }
+        .article-header{
+            padding: 20px 0;
+        }
+        .aricle-title{
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .article-date{
+            font-size: 13px;
+        }
+        .article-body{
+            font-size: 14px;
+        }
+        .aside-list{
+            padding: 10px 0 30px 0;
+        }
+        .aside-list > h3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .aside-list li a{
+            margin-left: 8px;
+            font-size: 13px;
+            columns: #6c6c6;
+        }
+    </style>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="main=header">
+            <hgroup>
+                <h1 class="master-title">MERCEDES BENZ </h1>
+                <h2 class="master-description">GLE</h2>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">HTML5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">CSS3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">JavaScript</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                            <li class="inner-menu-item"><a herf="#">데이터</a></lie>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search">
+                        <input type="submit" class="input-search-submit" value="검색">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <section id="main-section">
+                <article>
+                    <div class="article-header">
+                        <h1 class="article-title">HTML5 개요와 활용</h1>
+                        <p class="article-data">2023년 03월 27일</p>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg" width="430">
+                        <br>
+                        <br>
+                        <p>The Mercedes-Benz GLE, formerly Mercedes-Benz M-Class (designated with the "ML" nomenclature), is a mid-size luxury SUV produced by the German manufacturer Mercedes-Benz since 1997. In terms of size, it is slotted in between the smaller GLC and the larger GLS, the latter with which it shares platforms.</p>
+                        <br>
+                        <p>The first-generation M-Class, designated with the model code W163, is a body-on-frame SUV and was produced until 2004. For a short time, between 1999 and 2002, the W163 M-Class was also built by Magna Steyr in Graz, Austria, for the European market, before all production moved to the U.S. plant near Vance, Alabama. The second-generation M-Class (W164) moved to a unibody platform while sharing most components with the GL-Class, which sports a longer body to accommodate third-row seating.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="article-header">
+                        <h1 class="article-title">HTML5 응용과 실습</h1>
+                        <P class="article-data">2023년 03월 27일</P>
+                    </div>
+                    <div class="article-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/2000_Mercedes-Benz_ML_320_%28W_163_MY00%29_wagon_%282010-09-23%29_01.jpg" width="430">
+                        <br>
+                        <p>Mercedes-Benz proposed a plan to replace the G-Class, which at the time had been in production for 11 years. A joint agreement with Mitsubishi Motors to develop and produce a sports-utility vehicle was made in early 1991 and was confirmed publicly that June. Plans were made to base it on the Montero/Pajero platform, with one of them being badged as a Mercedes-Benz and the other a Mitsubishi. In May 1992, these plans were abandoned citing "technical problems" and Mercedes-Benz continued on with in-house development from January 1993.</p>
+                        <br>
+                        <p>In March 1993, a search for a location to build a U.S. manufacturing plant began. By September 1993, a location in the state of Alabama was chosen and construction started in 1994.</p>
+                    </div>
+                </article>
+            </section>
+            <aside id="main=aside">
+                <div class="aside-list">
+                    <h3>카테고리</h3>
+                    <ul>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                    </ul>
+                </div>
+                <div class="aside-list">
+                    <h3>최근 글</h3>
+                    <ul>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                        <li><a herf="#">데이터</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer id="main-footer">
+            <a href="#">ITCookBook HTML5 Programing</a>
+        </footer>
+    </div>
+</body>
+</html>
